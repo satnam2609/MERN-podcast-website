@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ 
+ 
+.item {
+    min-height: 30rem;
+    min-width: 30rem;
+    padding: 40px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    pointer-events: none;
+     
+}
+
+.inner-carousel {
+    display: flex;
+    background-color: #121212;
+}
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+    background-color: #121212;
+    width: 100%;
+ 
+}
+
+@media only screen and (max-width: 600px) {
+    .item {
+        min-height: 20rem;
+        min-width: 20rem;
+        padding: 10px;
+    }
+    
+    .item img {
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+        pointer-events: none;
+         
+    }
+    
+    .inner-carousel {
+        display: flex;
+        background-color: #121212;
+    }
+    
+    .carousel {
+        cursor: grab;
+        overflow: hidden;
+        background-color: #121212;
+        width: 100%;
+    }
+  }

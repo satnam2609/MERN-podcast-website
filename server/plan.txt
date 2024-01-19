@@ -1,0 +1,9 @@
+setup admin register and login endpoint
+once created podcast endpoint work on cloudinary for images
+
+
+BLOG
+create blog schema
+create blog creation endpoints
+getting the blogs based on category endpoint
+user need to engage in the blogs page so add indexed blogs with previous and next button to read next blog

@@ -1,0 +1,6 @@
+i have made login page for AdminLogin
+I'll setup forgotPassword page for latter
+After admin logged in the admin must go to admin dashboard
+setup some navbar and then i'll just move to redux store
+setup redux store and then add admin to the redux store 
+save the admin to the localStorage
